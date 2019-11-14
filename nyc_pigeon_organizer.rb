@@ -25,6 +25,8 @@ def nyc_pigeon_organizer(data)
         if !temp_hash[i]
           temp_hash = { pigeon_category=> [key.to_s] }
         else
+          binding.pry
+          temp_hash[i][:color] << key.to_s
         end
         
         temp_hash = temp_hash.merge(temp_hash2)
