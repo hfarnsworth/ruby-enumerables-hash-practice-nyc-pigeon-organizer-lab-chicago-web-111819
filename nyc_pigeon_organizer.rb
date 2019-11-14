@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
         if !temp_hash[i]
           temp_hash[i] = { pigeon_category=> [key.to_s] }
         else
-          temp_hash[i][pigeon_category] = key.to_s
+          temp_hash[i][pigeon_category] << key.to_s
         end
         
         index2 += 1
