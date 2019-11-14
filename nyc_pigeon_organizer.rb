@@ -19,8 +19,10 @@ def nyc_pigeon_organizer(data)
       
       while index2 < value.length do 
         i = value[index2]
-        temp_hash2[i] = { pigeon_category=> [key.to_s] }
-        
+        if !temp_hash[i]
+          temp_hash = { pigeon_category=> [key.to_s] }
+        else
+        end
         
         temp_hash = temp_hash.merge(temp_hash2)
         
