@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
       while index2 < value.length do 
         i = value[index2]
         if !temp_hash[i]
-          temp_hash = { pigeon_category=> [key.to_s] }
+          temp_hash[i] = { pigeon_category=> [key.to_s] }
         else
           binding.pry
         end
