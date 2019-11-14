@@ -1,3 +1,6 @@
+require pry
+
+
 def nyc_pigeon_organizer(data)
   key_array = []
   value_array = []
