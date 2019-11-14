@@ -27,8 +27,6 @@ def nyc_pigeon_organizer(data)
           binding.pry
         end
         
-        temp_hash = temp_hash.merge(temp_hash2)
-        
         index2 += 1
       end ;
     }
