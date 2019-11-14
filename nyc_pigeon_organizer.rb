@@ -17,7 +17,6 @@ def nyc_pigeon_organizer(data)
     temp_hash = Hash.new
     value_array[index].each {
       |key, value| index2 = 0 ;
-      temp_hash2 = Hash.new ;
       temp_array = []
       
       while index2 < value.length do 
