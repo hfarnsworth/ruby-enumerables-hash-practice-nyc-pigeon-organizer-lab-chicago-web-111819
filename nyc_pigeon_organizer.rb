@@ -25,6 +25,7 @@ def nyc_pigeon_organizer(data)
           temp_hash[i] = { pigeon_category=> [key.to_s] }
         else
           binding.pry
+          temp_hash[i] << { pigeon_category=> [key]
         end
         
         index2 += 1
